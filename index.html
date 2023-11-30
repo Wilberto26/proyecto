@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>La Bahía</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="css/fonts.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <div class="logo me-auto">
+        <h1><a href="index.html">La Bahía  <img src="assets/img/apple-touch-icon.png" alt="" class="img-fluid"></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
+          <li><a class="nav-link scrollto" href="#about">Nosotros</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menú</a></li>
+          <li><a class="nav-link scrollto" href="#specials">Especiales</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Galeria</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contactos</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="Registro.html" class="book-a-table-btn scrollto">Registrar Usuarios</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/slide.jpg);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Restaurante <span>La Bahía</span></h2>
+                <p class="animate__animated animate__fadeInUp">Cocinar es un arte en el cual se crea diferentes experiencias para nuestros sentidos y nos permite reflejar toda nuestra cultura e historia en un solo plato.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Nuestro Menú</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container-fluid">
+
+        <div class="row">
+
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/about.jpg");'></div>
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+            <div class="content">
+              <h3>¿Cúal es nuestro objetivo.</h3>
+              <p>Estamos comprometidos a ofrecer a nuestros clientes una experiencia gastronómica única. Nuestro equipo de chefs experimentados está siempre buscando nuevas formas de sorprender a nuestros clientes con creaciones culinarias innovadoras.</p>
+              <p>Nos enorgullece ofrecer un ambiente relajado y acogedor que es perfecto para disfrutar de una cena romántica o una reunión con amigos. Ya sea que estés buscando una cena informal o una experiencia gastronómica de alta calidad, nuestro gastrobar es el lugar perfecto para disfrutar de una deliciosa comida marítima.</p>
+              <!--p>Ofrecemos una amplia variedad de platos de mariscos y pescados, preparados con ingredientes frescos y de alta calidad. Desde la clásica paella de mariscos hasta el ceviche peruano, nuestros platos son una delicia para los amantes de la comida marítima.</p>
+              <p>También puedes disfrutar una selección de vinos y cócteles que complementan perfectamente nuestros platos. Ya sea que estés buscando una copa de vino para acompañar tu cena o un cóctel para disfrutar con amigos, tenemos algo para todos.</p>
+            -->
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Consulta nuestro sabroso <span>Menú</span></h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Todo</li>
+              <li data-filter=".filter-tapas">Acompañamientos</li>
+              <li data-filter=".filter-raciones">Raciones</li>
+              <li data-filter=".filter-postres">Postres</li>
+              <li data-filter=".filter-bebidas">Bebidas</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row menu-container">
+
+          <div class="col-lg-6 menu-item filter-tapas">
+            <div class="menu-content"><a href="">Boquerones en vinagre</a><span>$10.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-raciones">
+            <div class="menu-content"><a href="">Fideuá de marisco</a><span>$20.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-postres">
+            <div class="menu-content"><a href="">Tiramisú</a><span>$16.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <div class="menu-content"><a href="">Cerveza</a><span>$5.000</span></div>
+          </div>
+
+          
+
+
+          <div class="col-lg-6 menu-item filter-tapas">
+            <div class="menu-content"><a href="">Gambas al ajillo</a><span>$7.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-raciones">
+            <div class="menu-content"><a href="">Callos de bacalao</a><span>$23.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-postres">
+            <div class="menu-content"><a href="">Brownie con helado</a><span>$19.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <div class="menu-content"><a href="">Sangría</a><span>$6.000</span></div>
+          </div>
+
+          
+          
+
+          <div class="col-lg-6 menu-item filter-tapas">
+            <div class="menu-content"><a href="">Tortillitas de camarones</a><span>$9.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-raciones">
+            <div class="menu-content"><a href="">Merluza a la vasca</a><span>$24.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-postres">
+            <div class="menu-content"><a href="">Crema catalana</a><span>$17.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <div class="menu-content"><a href="">Sidra</a><span>$6.000</span></div>
+          </div>
+
+          
+
+
+          <div class="col-lg-6 menu-item filter-tapas">
+            <div class="menu-content"><a href="">Pulpo a la gallega</a><span>$10.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-raciones">
+            <div class="menu-content"><a href="">Zarzuela de pescado y marisco</a><span>$22.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-postres">
+            <div class="menu-content"><a href="">Arroz con leche</a><span>$15.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <div class="menu-content"><a href="">Vermut</a><span>$5.000</span></div>
+          </div>
+
+          
+          
+
+          <div class="col-lg-6 menu-item filter-tapas">
+            <div class="menu-content"><a href="">Croquetas de chipirones</a><span>$11.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-raciones">
+            <div class="menu-content"><a href="">Lubina al horno con patatas panaderas</a><span>$20.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-postres">
+            <div class="menu-content"><a href="">Natillas con galleta</a><span>$16.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <div class="menu-content"><a href="">Tinto de verano</a><span>$3.000</span></div>
+          </div>
+          
+
+          
+
+          <div class="col-lg-6 menu-item filter-tapas">
+            <div class="menu-content"><a href="">Mejillones a la marinera</a><span>$9.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-raciones">
+            <div class="menu-content"><a href="">Atún encebollado</a><span>$23.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-postres">
+            <div class="menu-content"><a href="">Pudin de pan</a><span>$15.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <div class="menu-content"><a href="">Agua</a><span>$$2.000</span></div>
+          </div>
+          
+
+          <div class="col-lg-6 menu-item filter-tapas">
+            <div class="menu-content"><a href="">Empanadillas de bonito</a><span>$10.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-raciones">
+            <div class="menu-content"><a href="">Dorada a la sal</a><span>$24.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-postres">
+            <div class="menu-content"><a href="">Fruta del tiempo</a><span>$19.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <div class="menu-content"><a href="">Refresco</a><span>$3.000</span></div>
+          </div>
+
+          
+
+          
+          
+
+          <div class="col-lg-6 menu-item filter-tapas">
+            <div class="menu-content"><a href="">Patatas bravas con salsa de calamar</a><span>$11.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-raciones">
+            <div class="menu-content"><a href="">Rape alangostado</a><span>$23.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-postres">
+            <div class="menu-content"><a href="">Flan de huevo</a><span>$16.000</span></div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-bebidas">
+            <div class="menu-content"><a href="">Café</a><span>$2.000</span></div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Menu Section -->
+
+
+    
+    <!-- ======= Specials Section ======= -->
+    <section id="specials" class="specials">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Revisa nuestras <span>Ofertas Especiales</span></h2>
+          <p>Puedes degustar los platillos que desees</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Canelones de marisco</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Carpaccio de pulpo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Risotto de bogavante</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Ceviche de corvina</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Brochetas de langostinos y piña</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Canelones de marisco:</h3>
+                    <p>Unos deliciosos canelones rellenos de una mezcla de marisco picado, bechamel y queso. Cubiertos con una salsa de tomate y gratinados al horno.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-1.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Carpaccio de pulpo:</h3>
+                    <p>Unas finas lonchas de pulpo cocido, aliñadas con aceite de oliva, vinagre, sal, pimienta y perejil. Decoradas con unas alcaparras y unas hojas de rúcula.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-2.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Risotto de bogavante:</h3>
+                    <p>Un cremoso arroz cocinado con caldo de pescado, azafrán, mantequilla y queso parmesano. Acompañado de un bogavante troceado y salteado con ajo y pimentón.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-3.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Ceviche de corvina:</h3>
+                    <p>Un plato frío de corvina cortada en dados y marinada con zumo de lima, cebolla morada, cilantro, sal y ají. Servido con unas rodajas de aguacate y unas hojuelas de maíz tostado.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-4.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>Brochetas de langostinos y piña:</h3>
+                    <p>Unas brochetas de langostinos pelados y piña troceada, aderezadas con una salsa de soja, miel, jengibre y limón. Asadas a la parrilla y espolvoreadas con semillas de sésamo.</p>
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="assets/img/specials-5.jpg" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Specials Section -->
+
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+
+        <div class="section-title">
+          <h2>Algunas fotos de <span>Nuestro Restaurante</span></h2>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox">
+                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Chefs Section ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Nuestros <span>Chefs Profesionales</span></h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Juan Goméz</h4>
+                <span>Maestro de Cocina</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sara Garcia</h4>
+                <span>Pastelera</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>William Flores</h4>
+                <span>Cocinero</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2><span>Contáctanos</span></h2>
+          <p>Puedes contactarnos con los siguientes datos.</p>
+        </div>
+      </div>
+
+      <div class="map">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3947.9415126973536!2d-73.61852102579417!3d8.30861139172674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e5d857c84fd1f77%3A0x161784b4dd0a3862!2sCl.%206%20%2318-36%2C%20Aguachica%2C%20Cesar!5e0!3m2!1ses-419!2sco!4v1700859899890!5m2!1ses-419!2sco" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container mt-5">
+
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 info">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Ubicación:</h4>
+              <p>Cl. 6 #18-36<br>Aguachica, Cesar</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-clock"></i>
+              <h4>Horas de Apertura:</h4>
+              <p>Lunes-Sábado:<br>11:00 AM - 2300 PM</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>labahia@example.com</p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-phone"></i>
+              <h4>Llamadas:</h4>
+              <p>+57 358 955 4885</p>
+            </div>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>La Bahía</h3>
+      <p>Puedes visitar nuestras redes sociales</p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="copyright">&copy; Copyright <strong><span>La Bahía</span></strong>. Todos los Derechos Reservados.</div>
+      <div class="credits">Diseñado por <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
