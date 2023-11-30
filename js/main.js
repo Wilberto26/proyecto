@@ -246,14 +246,14 @@
     }
   });
 
-})()
+})();
 
 
 
 
 
 window.onload = function() {
-  localStorage.clear()
+  localStorage.clear();
 }
 
 var contador=0;
