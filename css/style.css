@@ -137,6 +137,16 @@ h6 {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  border-radius: 10%;
+}
+
+@media (max-width: 992px) {
+  #header .logo h1 {
+    font-size: 25px;
+  }
+  #header .logo img {
+    max-height: 35px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -302,6 +312,9 @@ h6 {
 
   .navbar ul {
     display: none;
+  }
+  .navbar {
+    background-color: #ffe07b;
   }
 }
 
@@ -1554,6 +1567,16 @@ section {
 
 .form-group .datos-form {
   font-style: normal !important;
+}
+
+#registro {
+  margin-top: 7%;
+}
+
+@media screen and (max-width: 992px) {
+	#registro {
+    margin-top: 15%;
+  }
 }
 
 @keyframes animate-loading {
